@@ -12,71 +12,235 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 ==========
 1. Write the command that you would use to change to the root directory.
+$ ls /
 ----------
 
 
 
 ==========
 2. Write the command that you would use to change to your home directory.
+$ ls ~
 ----------
 
 
 
 ==========
 3. Write the command that you would use to change to your Desktop folder.
+$ ls Desktop
 ----------
 
 
 
 ==========
 4. What's the absolute path to your home directory?
+$ pwd /c/Users/Tariq
+
 ----------
 
 
 
 ==========
 5. What's the absolute path to your Desktop directory?
+$ pwd /c/Users/Tariq/Desktop
 ----------
 
 
 
 ==========
 6. What's the absolute path to your Desktop directory?
+$ pwd /c/Users/Tariq/Desktop
 ----------
 
 
 
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
+$ cd ~/Desktop
 ----------
 
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
+$ mkdir -p Meatchicken
+
+Tariq@Debra MINGW64 ~/Desktop
+$ ls
+ a-amccs6/                                   Fightcade1.lnk*
+'Adobe After Effects CS6.lnk'*               Fightcade2.lnk*
+'Adobe Bridge CS6 (64bit).lnk'*              Godot/
+'Adobe ExtendScript Toolkit CS6.lnk'*        Godot_v3.3.2-stable_win64.exe*
+'Adobe Extension Manager CS6.lnk'*          'HuniePop 2 Double Date (2).url'
+'Adobe Illustrator CS6 (64 Bit).lnk'*       'Left 4 Dead 2.url'
+'Adobe Photoshop CS6 (64 Bit).lnk'*         'Little Nightmares.url'
+'Backup USB'/                                Meatchicken (I made a new directory!!!)/
+'Bourbon Avenue Logo (v.1).jpg'             'nabor resume'/
+'Card Creator Studio'/                      'Night in the Woods.url'
+'Card Studio open file 2.ccst'              'One Night Stand.url'
+'Catan Universe.url'                         One_Night_Stand_2.26-market/
+'Continue CAMMa Install Installation.lnk'*  'Project Economy Cards.ccst'
+'Custom files'/                             'Rube Goldberg Machine-20180223T205842Z-001.zip'
+'DDu 12,13,19'/                             'Team Fortress 2.url'
+'DELTARUNE (Chapter 1 & 2 DEMO).url'        'Ultra Street Fighter IV.url'
+ desktop.ini                                'Undiscovered (2).zip'
+ Discord.lnk*                               'Unity works'/
+ Dropbox.lnk*
 ----------
 
 
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
+$ cd /c/
+
+Tariq@Debra MINGW64 /c
+$ mkdir -p Mountainchicken
+
+Tariq@Debra MINGW64 /c
+$ ls
+'$360Section'/    DELL/                      mfg.sdr                 ProgramData/                  Users/
+'$Recycle.Bin'/  'Documents and Settings'@   Mountainchicken(I made a new directory!)/       'Riot Games'/                  VSTPlugIns/
+ Apps/            found.000/                 MSOCache/               swapfile.sys                  Windows/
+ bootmgr          hiberfil.sys               pagefile.sys           'System Recovery'/
+ BOOTNXT          Intel/                    'Program Files'/        'System Volume Information'/
+ DBAR_Ver.txt    'Jamstix 4 Data'/          'Program Files (x86)'/   Temp/
 ----------
 
 
 
 ==========
 10. If you're in your Desktop directory, how would you create a new directory on your desktop called even-more-stuff?  Write your command below.
+Tariq@Debra MINGW64 ~/Desktop
+$ mkdir -p Monkeychicken
+
+Tariq@Debra MINGW64 ~/Desktop
+$ ls
+ a-amccs6/                                   Fightcade1.lnk*
+'Adobe After Effects CS6.lnk'*               Fightcade2.lnk*
+'Adobe Bridge CS6 (64bit).lnk'*              Godot/
+'Adobe ExtendScript Toolkit CS6.lnk'*        Godot_v3.3.2-stable_win64.exe*
+'Adobe Extension Manager CS6.lnk'*          'HuniePop 2 Double Date (2).url'
+'Adobe Illustrator CS6 (64 Bit).lnk'*       'Left 4 Dead 2.url'
+'Adobe Photoshop CS6 (64 Bit).lnk'*         'Little Nightmares.url'
+'Backup USB'/                                Meatchicken/
+'Bourbon Avenue Logo (v.1).jpg'              Monkeychicken/
+'Card Creator Studio'/                      'nabor resume'/
+'Card Studio open file 2.ccst'              'Night in the Woods.url'
+'Catan Universe.url'                        'One Night Stand.url'
+'Continue CAMMa Install Installation.lnk'*   One_Night_Stand_2.26-market/
+'Custom files'/                             'Project Economy Cards.ccst'
+'DDu 12,13,19'/                             'Rube Goldberg Machine-20180223T205842Z-001.zip'
+'DELTARUNE (Chapter 1 & 2 DEMO).url'        'Team Fortress 2.url'
+ desktop.ini                                'Ultra Street Fighter IV.url'
+ Discord.lnk*                               'Undiscovered (2).zip'
+ Dropbox.lnk*                               'Unity works'/
+
 ----------
 
 
 
 ==========
 11. If you're in your home directory, how would you change to the directory right above it using a relative path (it should bring you to /Users)?  Write your command below.
+Tariq@Debra MINGW64 ~/Desktop
+$ cd ~
+
+Tariq@Debra MINGW64 ~
+$ Users
+
+Tariq@Debra MINGW64 ~
+$ meat
+bash: meat: command not found
+
+Tariq@Debra MINGW64 ~
+$ ls
+ ansel/
+ AppData/
+'Application Data'@
+ BullseyeCoverageError.txt
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ meatchicken/
+ Music/
+'My Documents'@
+ NetHood@
+ ntuser.dat
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.0.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.1.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.2.regtrans-ms
+ ntuser.dat{39833a58-9108-11e6-82cf-40b89a72b3be}.TxR.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TM.blf
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{39833a59-9108-11e6-82cf-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.0.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.1.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.2.regtrans-ms
+ ntuser.dat{b2f2a824-a09d-11ea-84d2-204747c0c7bc}.TxR.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TM.blf
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{b2f2a825-a09d-11ea-84d2-204747c0c7bc}.TMContainer00000000000000000002.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TM.blf
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{bbed3e3b-0b41-11e3-8249-d6927d06400b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TM.blf
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000001.regtrans-ms
+ ntuser.dat{fa5a05c4-2b8a-11e8-8382-40b89a72b3be}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+
+Tariq@Debra MINGW64 ~
+$ pwd
+/c/Users/Tariq
 ----------
 
 
 
 ==========
 12. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
+Tariq@Debra MINGW64 ~
+$ cd ~/Desktop
+
+Tariq@Debra MINGW64 ~/Desktop
+$ cd ~/Users
+bash: cd: /c/Users/Tariq/Users: No such file or directory
+
+Tariq@Debra MINGW64 ~/Desktop
+$ cd ~
+
+Tariq@Debra MINGW64 ~
+$ Users
+
+Tariq@Debra MINGW64 ~
+$ pwd
+/c/Users/Tariq
+
+$ cd ../..
+
+
+Tariq@Debra MINGW64 /c
 ----------
 
 
@@ -84,11 +248,11 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 13. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/profesor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
-
+$ "cd -" is the command to go to your previous directory. 
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
-
+ls -tl Desktop
 ==========
 Optional Challenge:
 
@@ -100,3 +264,19 @@ e. Determine which folder in my-stuff was created most recently by using ls.  (t
 f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
+
+
+
+Lab - Output, Download and Uncompress
+==========
+Follow the instructions line-by-line.  
+
+* Type in the commands as is, but ignore the beginning prompt.  
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* "No output" or "nothing happens" are valid answers to any of the questions.
+==========
+
+
+==========
+We're going to be echoing stuff to the console and cleaning it up.
+==========
